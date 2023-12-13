@@ -233,7 +233,7 @@ function ModelBox({ isOpen, onClose, editJobId }) {
                                                     as="h3"
                                                     className=" flex justify-between text-lg font-medium leading-6 text-gray-900"
                                                 >
-                                                    <h1>Create Job</h1>
+                                                    <h1>{editJobId ? 'Update Job':'Create Job'}</h1>
                                                     <p> Step 1</p>
                                                 </Dialog.Title>
 
@@ -357,7 +357,7 @@ function ModelBox({ isOpen, onClose, editJobId }) {
                                                     as="h3"
                                                     className=" flex justify-between text-lg font-medium leading-6 text-gray-900"
                                                 >
-                                                    <h1>Create Job</h1>
+                                                    <h1>{editJobId ? 'Update Job':'Create Job'}</h1>
                                                     <p> Step 2</p>
                                                 </Dialog.Title>
 
